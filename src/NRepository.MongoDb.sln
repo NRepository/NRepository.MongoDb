@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRepository.MongoDb", "NRepository.MongoDb\NRepository.MongoDb.csproj", "{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRepository.MongoDb.Tests", "NRepository.MongoDb.Tests\NRepository.MongoDb.Tests.csproj", "{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CSHARP_40|Any CPU = CSHARP_40|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}.CSHARP_40|Any CPU.ActiveCfg = Release|Any CPU
+		{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}.CSHARP_40|Any CPU.Build.0 = Release|Any CPU
+		{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3232C37-CEE2-4BD3-96C9-64A0D659CACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}.CSHARP_40|Any CPU.ActiveCfg = Release|Any CPU
+		{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}.CSHARP_40|Any CPU.Build.0 = Release|Any CPU
+		{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E75D9B0-E007-4048-9DD2-BE9A35B71D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

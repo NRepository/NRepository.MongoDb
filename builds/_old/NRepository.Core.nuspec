@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NRepository.Core</id>
+    <version>1.0.0.0</version>
+    <title>NRepository.Core</title>
+    <authors>John Kelly</authors>
+    <licenseUrl>https://nrepository.codeplex.com/license</licenseUrl>
+    <projectUrl>https://nrepository.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://bluepear-public.sharepoint.com/SiteAssets/NRepository.png</iconUrl>
+	<description>NRepository.Core is a generic repository library  with a strong focus on CQRS.</description>
+    <releaseNotes>Rename of decorators to interceptors</releaseNotes>
+    <copyright>© Blue Pear 2014</copyright>
+    <tags>Repository EF entity framework cqrs core UOW unit of work</tags>
+  </metadata>
+   <files>
+    <file src="..\source\Core\bin\debug\nrepository.core.dll" target="lib\net45" />
+    <file src="..\source\Core\bin\CSHARP_40\nrepository.core.dll" target="lib\net40" />
+</files>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NRepository.TestKit</id>
+    <version>0.5.0.0</version>
+    <title>NRepository TestKit</title>
+    <authors>John Kelly</authors>
+    <licenseUrl>https://nrepository.codeplex.com/license</licenseUrl>
+    <projectUrl>https://nrepository.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NRepository.TestKit is a collection of helper classes for testing NRepsoitory.</description>
+    <iconUrl>https://bluepear-public.sharepoint.com/SiteAssets/NRepository.png</iconUrl>
+	<releaseNotes></releaseNotes>
+    <copyright>(2014). Blue Pear (Software) Ltd </copyright>
+    <tags>Repository EF entity framework cqrs core Test unit of work</tags>
+	<dependencies>
+		<dependency id="NRepository.Core" version="0.3.3.0" />
+	</dependencies>
+  </metadata>
+   <files>
+    <file src="..\source\TestKit\bin\Debug\NRepository.TestKit.dll" target="lib\net45" />
+    <file src="..\source\TestKit\bin\Debug\NRepository.TestKit.dll" target="lib\net40" />
+</files>
+
+</package>

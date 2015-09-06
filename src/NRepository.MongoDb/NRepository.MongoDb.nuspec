@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NRepository.MongoDb</id>
+    <version>2.1.0.0</version>
+    <title>NRepository.MongoDb</title>
+    <authors>John Kelly</authors>
+    <licenseUrl>https://nrepository.codeplex.com/license</licenseUrl>
+    <projectUrl>https://nrepository.codeplex.com/</projectUrl>
+    <iconUrl>https://bluepear-public.sharepoint.com/SiteAssets/NRepository.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NRepository.MongoDb is a generic repository library with a strong focus on CQRS.</description>
+    <releaseNotes>
+      1. Temporary update to use V3.0 NRepository.Core
+
+      V3.0 due for release soon. This will include features such as:
+      1. Upgrade to use new MongoDb.Driver
+      2. Automatic partial document updates
+      3. Proxy objects
+    </releaseNotes>
+    <copyright>© Blue Pear (Software) Ltd. 2015</copyright>
+    <tags>Repository EF entity framework cqrs core UOW unit of work MongoDB Mongo NRepository IRepository Generic Unit Of Work</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="MongoCsharpDriver" version="1.10.0" />
+        <dependency id="NRepository.Core" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\NRepository.MongoDb.dll" target="lib\net45" />
+  </files>
+</package>
